@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="3"
+    android:layoutAnimation="@anim/layout_animation_row_left_slide"
+    android:orientation="horizontal"
+    android:rowCount="5"
+    tools:targetApi="14" >
+
+    <ImageView
+        android:id="@+id/grid_image_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_columnSpan="1"
+       
+        android:layout_gravity="fill"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_3"
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_4"
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="4"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_5"
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_7"
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+         android:layout_rowSpan="1"
+         android:layout_gravity="fill"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_11"
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/grid_image_12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/all"
+        android:src="@drawable/ic_launcher" />
+
+</GridLayout>

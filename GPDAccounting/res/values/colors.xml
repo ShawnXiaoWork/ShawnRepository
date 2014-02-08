@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="black_overlay">#77FCB941</color>
+    <color name="bg_color">#77FC6042</color>
+	 <color name="Calendar_select_color">#77EEE657</color>
+	 <color name="Calendar_text_color">#772CC990</color>
+	 <color name="Item_name_color">#772C82C9</color>
+	 <color name="back_color">#99999999</color>
+</resources>
